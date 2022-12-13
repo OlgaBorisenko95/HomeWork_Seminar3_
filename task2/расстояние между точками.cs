@@ -9,7 +9,7 @@ int z2 = EnterData("Введите координату z2: ");
 
 double FindDistance(int x1, int y1, int x2, int y2, int z1, int z2)
 {  
-    double result = Math.Sqrt(Math.Pow((x2-x1), 2) + Math.Pow((y2-y1), 2 + Math.Pow(z2-z1, 2)));
+    double result = Math.Sqrt(Math.Pow((x2-x1), 3) + Math.Pow((y2-y1), 3) + Math.Pow(z2-z1, 3)));
     return result;
 }
 int EnterData(string text)
